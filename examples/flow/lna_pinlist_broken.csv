@@ -1,0 +1,13 @@
+# Deliberately wrong, to watch the package LVS find the mistakes. Lay the
+# wires with lna_top.sch + lna_pinlist.csv first, then load THIS file and
+# press only "Check (LVS)". It should report:
+#   wrong lead   VCC is fixed to lead 6 here, but sits on another lead
+#   unknown pad  GND3, GND4, GND15, IHEAT, GNDHEAT, VTMP are wired but not listed
+#   open         NOPAD has no wire (and is on no die)
+die,pad,net,kind,lead
+ALL_LNA,GND14,GND,ground,5
+ALL_LNA,RFIN,RF_IN,rf,6
+ALL_LNA,RFOUT,RF_OUT,rf,25
+ALL_LNA,VCC,VCC,power,6
+ALL_LNA,IDC,BIAS,signal,
+ALL_LNA,NOPAD,X,signal,

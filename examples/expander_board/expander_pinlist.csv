@@ -1,0 +1,30 @@
+# Pin list of the IHP i2c-gpio-expander (TO_Nov2024, SG13G2) in a QFN-24 4x4,
+# with the net names of the evaluation board (expander_eval.kicad_sch).
+# Pad names: the GDS labels. Pin functions: IHP's doc/source/pinout.rst.
+# The supply pads are labelled by the IO ring corner cell in the GDS;
+# vdd_RING/vss_RING are the west pads, vdd_RING_2/vss_RING_2 the east pads.
+# Core supply: IHP's pin-out says 1.1 V, SG13G2 core devices are 1.2 V
+# nominal; the board uses 1.2 V.
+# The die has no IOVDD/IOVSS pads (IHP's known issues): the IO ring has no
+# supply pad of its own.
+die,pad,net,kind,lead
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING,+1V2,power,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING,GND,ground,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING_2,+1V2,power,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING_2,GND,ground,
+i2c_gpio_expander_SG13G2Top,io_clock_PAD,CLK_50M,signal,
+i2c_gpio_expander_SG13G2Top,io_reset_PAD,RESET_N,signal,
+i2c_gpio_expander_SG13G2Top,io_i2c_scl_PAD,SCL,signal,
+i2c_gpio_expander_SG13G2Top,io_i2c_sda_PAD,SDA,signal,
+i2c_gpio_expander_SG13G2Top,io_i2c_interrupt_PAD,INT,signal,
+i2c_gpio_expander_SG13G2Top,io_address_0_PAD,A0,signal,
+i2c_gpio_expander_SG13G2Top,io_address_1_PAD,A1,signal,
+i2c_gpio_expander_SG13G2Top,io_address_2_PAD,A2,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_0_PAD,GPIO0,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_1_PAD,GPIO1,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_2_PAD,GPIO2,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_3_PAD,GPIO3,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_4_PAD,GPIO4,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_5_PAD,GPIO5,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_6_PAD,GPIO6,signal,
+i2c_gpio_expander_SG13G2Top,io_gpio_7_PAD,GPIO7,signal,

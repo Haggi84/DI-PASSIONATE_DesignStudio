@@ -1,0 +1,37 @@
+# Pin list of the S-band receiver MCM (examples/cubesat_sband_mcm.py).
+# die,pad,net,kind,lead — lead empty: the tool chooses (crossing-free).
+# The RF pins and their ground neighbours are fixed: ground-signal-ground.
+# GPIO6 and GPIO7 are not bonded: with the RF pins fixed, 32 leads take 29 pads
+# crossing-free, not 31 (the package LVS said so).
+die,pad,net,kind,lead
+ALL_LNA,GND14,GND,ground,2
+ALL_LNA,RFIN,RF_IN,rf,3
+ALL_LNA,GND15,GND,ground,4
+ALL_LNA,GND4,GND,ground,27
+ALL_LNA,RFOUT,RF_OUT,rf,28
+ALL_LNA,GND3,GND,ground,29
+ALL_LNA,VCC,VCC_LNA,power,
+ALL_LNA,IDC,LNA_BIAS,signal,
+ALL_LNA,IHEAT,LNA_HEAT,signal,
+ALL_LNA,GNDHEAT,GND,ground,
+ALL_LNA,VTMP,LNA_TEMP,signal,
+i2c_gpio_expander,VDD_E,VDD_DIG,power,
+i2c_gpio_expander,VDD_W,VDD_DIG,power,
+i2c_gpio_expander,VSS_E,GND,ground,
+i2c_gpio_expander,VSS_W,GND,ground,
+i2c_gpio_expander,io_clock_PAD,CLK_50M,signal,
+i2c_gpio_expander,io_reset_PAD,RESET,signal,
+i2c_gpio_expander,io_i2c_scl_PAD,SCL,signal,
+i2c_gpio_expander,io_i2c_sda_PAD,SDA,signal,
+i2c_gpio_expander,io_i2c_interrupt_PAD,INT,signal,
+i2c_gpio_expander,io_address_0_PAD,ADDR0,signal,
+i2c_gpio_expander,io_address_1_PAD,ADDR1,signal,
+i2c_gpio_expander,io_address_2_PAD,ADDR2,signal,
+i2c_gpio_expander,io_gpio_0_PAD,GPIO0,signal,
+i2c_gpio_expander,io_gpio_1_PAD,GPIO1,signal,
+i2c_gpio_expander,io_gpio_2_PAD,GPIO2,signal,
+i2c_gpio_expander,io_gpio_3_PAD,GPIO3,signal,
+i2c_gpio_expander,io_gpio_4_PAD,GPIO4,signal,
+i2c_gpio_expander,io_gpio_5_PAD,GPIO5,signal,
+i2c_gpio_expander,io_gpio_6_PAD,GPIO6,nc,
+i2c_gpio_expander,io_gpio_7_PAD,GPIO7,nc,

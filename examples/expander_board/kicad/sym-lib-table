@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ExpanderEval")(type "KiCad")(uri "${KIPRJMOD}/ExpanderEval.kicad_sym")(options "")(descr "Package Studio: the expander in QFN-24"))
+)

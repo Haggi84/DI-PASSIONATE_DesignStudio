@@ -1,0 +1,18 @@
+PASS ports: the board's front face: 10 x 1.6 mm, X along the board, Y up, (0, 0) at its corner 
+PASS ports: a 3 x 3 mm wave port centred at X 5, Y 0.8: at (5, 0, 0.8), facing out of the board (-y) 
+PASS ports: it lies in the face's plane, 3 x 3 mm, reaching beyond the 1.6 mm board edge 
+PASS ports: named Port1, index 1, 50 ohm 
+PASS ports: moved to X 2 and made 2 x 1 mm 
+PASS ports: mirrored over Y through the face's middle: Port2 at X 8, the same size and type 
+PASS ports: mirroring again makes nothing twice 
+PASS ports: a lumped port's field runs along its Y — here up the board edge, (0, 0, 1) 
+PASS ports: a wave port has no field direction to set 
+PASS ports: ports are export elements of their own 
+PASS ports: section: STEP, manifest and ports written 
+PASS ports: section: half the board, 5 x 6 x 1.6 = 48 mm^3 
+PASS ports: section: and the port inside it, 2 mm^2 
+PASS ports: section: ports.json lists only the port inside it 
+PASS ports: section: the port outside is not in the STEP 
+PASS ports: section: a chip layer is cut polygon by polygon — 30 of 60 via columns, 1,500 vias 
+PASS ports: section: and meshed the same for OBJ — 12 triangles a via 
+PASS ports: section: an element wholly outside is left out 

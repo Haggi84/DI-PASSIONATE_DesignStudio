@@ -1,0 +1,28 @@
+# Pin list of ALL_LNA (SG13G2, 780 x 980 um) in a QFN-24 4x4, with the net
+# names of the LNA evaluation board (lna_eval.kicad_sch).
+#
+# Bonded: the amplifier and its supply/bias/heater pads. The RF pads are
+# bonded ground-signal-ground to three neighbouring leads (lead 3/4/5 at the
+# input, 14/15/16 at the output): the board's coplanar line continues the
+# die's GSG pads through the package. Further ground pads go to free leads.
+# Not bonded: the on-wafer calibration structures (OPEN, SHORT, LOAD,
+# THROUGH/THROUGHIN, BIG/BIGIN), VTMP (it sits behind GND10, a wire would cross
+# that pad) and the seal-ring openings. The die's substrate is on the exposed
+# paddle (conductive die attach), the paddle is GND.
+die,pad,net,kind,lead
+ALL_LNA,GND14,GND,ground,3
+ALL_LNA,RFIN,RF_IN,rf,4
+ALL_LNA,GND15,GND,ground,5
+ALL_LNA,GND4,GND,ground,14
+ALL_LNA,RFOUT,RF_OUT,rf,15
+ALL_LNA,GND3,GND,ground,16
+ALL_LNA,GND13,GND,ground,
+ALL_LNA,GND16,GND,ground,
+ALL_LNA,GND5,GND,ground,
+ALL_LNA,GND2,GND,ground,
+ALL_LNA,GND10,GND,ground,
+ALL_LNA,GND9,GND,ground,
+ALL_LNA,VCC,VCC,power,
+ALL_LNA,IDC,IDC,signal,
+ALL_LNA,IHEAT,IHEAT,signal,
+ALL_LNA,GNDHEAT,GNDHEAT,ground,

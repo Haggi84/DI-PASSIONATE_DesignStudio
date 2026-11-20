@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- A speech bubble carrying the wave of the EM simulation icon: the
+       assistant that sets the simulation up in conversation. -->
+  <path d="M10,10 H54 A4,4 0 0 1 58,14 V40 A4,4 0 0 1 54,44 H28 L16,54 V44 H10 A4,4 0 0 1 6,40 V14 A4,4 0 0 1 10,10 Z"
+        fill="#eef3fb" stroke="#3a5a8a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M14,27 C18,15 22,15 26,27 S34,39 38,27 S46,15 50,27" fill="none"
+        stroke="#3a7bd5" stroke-width="3" stroke-linecap="round"/>
+</svg>

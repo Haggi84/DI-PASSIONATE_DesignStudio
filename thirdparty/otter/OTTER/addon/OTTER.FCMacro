@@ -1,0 +1,48 @@
+#!python3
+
+# OTTER - Open Tool for Three-solver EM Runs, launcher macro
+#
+# OTTER is a standalone add-on, it uses its own module names (OtterDialog, utilsOtter, ...) so it can be installed
+# next to the original FreeCAD-OpenEMS-Export add-on without the two loading each other's modules.
+#
+# Install: link (or copy) the OTTER add-on folder into the FreeCAD macro folder as "OTTER" and copy this file next to it
+# (Linux default macro folder: ~/.local/share/FreeCAD/Macro, Windows: %APPDATA%\FreeCAD\Macro):
+#  Macro
+#  |_OTTER.FCMacro (a copy of this file)
+#  |_OTTER (add-on directory, the 'addon' folder of the OTTER repository)
+#     |_OtterDialog.py
+#     ...
+# The macro also works when it is run directly from the add-on folder.
+
+import importlib.util
+import os
+import sys
+
+FILE_DIR = os.path.dirname(os.path.realpath(__file__))  # directory of this file
+
+OTTER_DIR = None
+for candidate in [os.path.join(FILE_DIR, "OTTER"), FILE_DIR]:
+    if os.path.isfile(os.path.join(candidate, "OtterDialog.py")):
+        OTTER_DIR = candidate
+        break
+if OTTER_DIR is None:
+    raise FileNotFoundError(f"OTTER add-on not found, expected OtterDialog.py in {os.path.join(FILE_DIR, 'OTTER')} or {FILE_DIR}")
+
+if OTTER_DIR in sys.path:
+    sys.path.remove(OTTER_DIR)
+sys.path.insert(0, OTTER_DIR)
+
+# Forget add-on modules imported by an earlier run in this FreeCAD session, so edits to the add-on are used without restarting
+# FreeCAD (generated scripts copy helper functions with inspect.getsource(), a stale module copies them from wrong lines).
+OTTER_REAL_DIR = os.path.realpath(OTTER_DIR) + os.sep
+for moduleName, module in list(sys.modules.items()):
+    moduleFile = getattr(module, "__file__", None)
+    if moduleFile and os.path.realpath(moduleFile).startswith(OTTER_REAL_DIR):
+        del sys.modules[moduleName]
+
+OTTER_spec = importlib.util.spec_from_file_location("OtterDialog", os.path.join(OTTER_DIR, "OtterDialog.py"))
+OTTER_mod = importlib.util.module_from_spec(OTTER_spec)
+OTTER_spec.loader.exec_module(OTTER_mod)
+
+dlgPanel = OTTER_mod.OtterDialog()
+dlgPanel.show()

@@ -1,0 +1,40 @@
+{
+ "package": "QFN-24 4x4",
+ "wires": 20,
+ "missing": [],
+ "lvs_errors": [],
+ "rejects": [],
+ "wire_mm": [
+  1.421,
+  1.798
+ ],
+ "lead_nets": {
+  "2": "+1V2",
+  "3": "GND",
+  "4": "GPIO7",
+  "5": "GPIO6",
+  "6": "GPIO5",
+  "7": "CLK_50M",
+  "8": "RESET_N",
+  "9": "SCL",
+  "10": "SDA",
+  "11": "INT",
+  "13": "+1V2",
+  "14": "GND",
+  "15": "A0",
+  "16": "A1",
+  "17": "A2",
+  "20": "GPIO4",
+  "21": "GPIO3",
+  "22": "GPIO2",
+  "23": "GPIO1",
+  "24": "GPIO0"
+ },
+ "files": [
+  "/home/claude/src/PackageStudio/examples/expander_board/out/package/ExpanderEval.pretty/QFN-24_4x4_Expander.kicad_mod",
+  "/home/claude/src/PackageStudio/examples/expander_board/out/package/ExpanderEval.kicad_sym",
+  "/home/claude/src/PackageStudio/examples/expander_board/out/package/QFN-24_4x4_Expander.step",
+  "/home/claude/src/PackageStudio/examples/expander_board/out/package/QFN-24_4x4_Expander_bonding.svg",
+  "/home/claude/src/PackageStudio/examples/expander_board/out/package/QFN-24_4x4_Expander_wires.csv"
+ ]
+}

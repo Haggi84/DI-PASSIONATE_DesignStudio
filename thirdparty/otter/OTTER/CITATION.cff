@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use OTTER, please cite it as below."
+title: "OTTER: Open Tool for Three-solver EM Runs"
+type: software
+authors:
+  - name: "The OTTER authors"   # TODO: replace with the author list
+repository-code: "https://github.com/mohsen-alihosseini/OTTER"
+url: "https://mohsen-alihosseini.github.io/OTTER/"
+license: GPL-3.0-or-later
+keywords:
+  - FreeCAD
+  - openEMS
+  - EMerge
+  - Palace
+  - electromagnetic simulation
+  - chip packaging
+  - bondwire

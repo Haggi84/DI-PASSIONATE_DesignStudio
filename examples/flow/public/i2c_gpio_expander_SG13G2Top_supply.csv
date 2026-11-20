@@ -1,0 +1,9 @@
+# Supply pads of the i2c-gpio-expander, which its Verilog top has no ports for.
+# Load together with i2c_gpio_expander_SG13G2Top.v (Pin list & LVS -> Load pin list, both files).
+# The pad names are the GDS labels of the IO ring (west/east supply pads).
+# Package: QFN-20 4x4 (20 pads -> 20 leads, crossing-free, LVS clean).
+die,pad,net,kind,lead
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING,VDD,power,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING_2,VDD,power,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING,GND,ground,
+i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING_2,GND,ground,

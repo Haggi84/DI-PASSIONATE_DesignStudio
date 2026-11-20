@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <name>OTTER</name> <!-- What the Addon Manager displays to users -->
+    <description>OTTER - Open Tool for Three-solver EM Runs: set up a FreeCAD model once and generate ready-to-run Python scripts for openEMS (FDTD), EMerge (FEM) and Palace (FEM). Based on FreeCAD-OpenEMS-Export by Lubomir Jagos.</description>
+    <version>0.1.0</version> <!-- Semantic versioning (1.2.3-beta) or CalVer-based, (2022.01.07), don't omit or non-git installations won't see your updates -->
+    <date>2026-10-05</date> <!-- Date of the last update to the version number -->
+    <maintainer email="en.alihosseini@gmail.com">Mohsen Alihosseini</maintainer>
+    <author>Lubomir Jagos (FreeCAD-OpenEMS-Export)</author>
+    <license file="LICENSE">GPL-3.0-or-later</license> <!-- Make sure you actually have this file in your Addon repo if the license requires it -->
+    <url type="repository" branch="main">https://github.com/mohsen-alihosseini/OTTER</url> <!-- Don't forget to update the branch name here -->
+    <url type="readme">https://github.com/mohsen-alihosseini/OTTER/blob/main/README.md</url> <!-- Link to the HTML-rendered README page -->
+    <url type="documentation">https://mohsen-alihosseini.github.io/OTTER/</url>
+
+    <content>
+      <macro>
+        <name>OTTER</name>
+        <version>0.1.0</version>
+        <file>OTTER.FCMacro</file>
+        <url type="readme">https://github.com/mohsen-alihosseini/OTTER/blob/main/README.md</url>
+      </macro>
+    </content>
+
+</package>

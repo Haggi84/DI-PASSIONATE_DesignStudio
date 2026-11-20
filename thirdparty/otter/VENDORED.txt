@@ -1,0 +1,38 @@
+What is in this folder and where it comes from
+==============================================
+
+Copied unchanged from OTTER_Local (https://github.com/mohsen-alihosseini/OTTER_Local),
+main branch as downloaded on 2026-11-05. OTTER_Local's own VENDORED.txt (2026-10-22) records:
+
+    otter_llm/   OTTER_LLM  c6ec416 (branch otter-local)
+    OTTER/       OTTER      dcfb431 (branch develop)
+
+Included:
+
+    OTTER/addon/                 the OTTER FreeCAD add-on (script generators for openEMS, EMerge,
+                                 Palace), without its test/ folder
+    OTTER/docs/{findings,user-guide,reference,benchmark}/*.md, OTTER/docs/setup.md
+                                 the documentation the EM assistant searches
+    OTTER/examples/pcb_to_chip/*/{README,CHANGES}.md
+                                 the benchmark's step-by-step change logs (also searched)
+    OTTER/README.md, NOTICE.md, CITATION.cff
+    otter_llm/                   model, starter, settings, checks, ports, mesh, project, overview,
+                                 generate, freecad, config, assistant/{agent,tools,knowledge},
+                                 headless/ — the plain-Python core of OTTER_Local, without the
+                                 NiceGUI web app (app.py, assistant/panel.py) and examples.py
+    LICENSE                      GPL-3.0, as in OTTER_Local
+
+Not included: OTTER_Local's web app and setup page (otter_local/, start.py), its tests, the
+benchmark models and results, New_Example/.
+
+How DI-PASSIONATE uses it: core/em/ builds the model and settings with otter_llm and the add-on
+writes the scripts (emsim/otter_runner.py drives its dialog in this FreeCAD, the same steps as
+otter_llm/headless/run_otter.py). otter_llm/freecad.py, generate.py and headless/ are kept for
+completeness and are not called: they start a second, headless FreeCAD.
+
+To update: replace this folder with the same parts of a newer OTTER_Local, update the commits
+above, and run tests/run_all.py and tests/run_gui_smoke.py.
+
+Licences: OTTER and OTTER_Local © Mohsen Alihosseini; the add-on is based on
+FreeCAD-OpenEMS-Export © Lubomir Jagos and contributors. All GPL-3.0-or-later, see LICENSE and
+OTTER/NOTICE.md.

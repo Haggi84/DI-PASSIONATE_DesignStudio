@@ -1,0 +1,7 @@
+{
+  "name": "IHP SG13G2 (200 um die)",
+  "lyp": "sg13g2.lyp",
+  "stackup": "SG13G2_200um.xml",
+  "pad_layers": [[9, 0]],
+  "notes": "Pads are the Passiv.drawing openings (9/0); bond wires land on the TopMetal2 below them."
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- A microstrip on a board with a port at its end, and the wave it
+       launches: the EM simulation setup. -->
+  <rect x="6" y="40" width="52" height="8" rx="1" fill="#7aa35a" stroke="#3f5e28" stroke-width="2"/>
+  <rect x="6" y="48" width="52" height="4" fill="#cc8833" stroke="#7a4d18" stroke-width="1.5"/>
+  <rect x="14" y="35" width="36" height="5" fill="#cc8833" stroke="#7a4d18" stroke-width="1.5"/>
+  <rect x="10" y="35" width="4" height="13" fill="#e04040" stroke="#7a1818" stroke-width="1.2"/>
+  <path d="M18,26 C22,14 26,14 30,26 S38,38 42,26 S50,14 54,26" fill="none"
+        stroke="#3a7bd5" stroke-width="3" stroke-linecap="round"/>
+</svg>

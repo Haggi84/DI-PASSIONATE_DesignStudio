@@ -1,0 +1,7 @@
+{
+  "name": "SkyWater SKY130 (300 um die)",
+  "lyp": "sky130.lyp",
+  "stackup": "SKY130A_300um.xml",
+  "pad_layers": [[76, 20]],
+  "notes": "Pads are the pad.drawing openings (76/20); bond wires land on met5 below them."
+}

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ExpanderEval")(type "KiCad")(uri "${KIPRJMOD}/ExpanderEval.pretty")(options "")(descr "Package Studio: the expander in QFN-24"))
+)

@@ -1,0 +1,7 @@
+(version 1)
+# The edge-launch SMAs sit across the board edge by design (their ground legs
+# clamp the board): no edge clearance for them and for the line into their pin.
+(rule "edge launch SMA"
+  (constraint edge_clearance (min 0mm))
+  (severity ignore)
+  (condition "A.insideCourtyard('J1') || A.insideCourtyard('J2') || A.insideCourtyard('J4') || A.insideCourtyard('J5') || B.insideCourtyard('J1') || B.insideCourtyard('J2') || B.insideCourtyard('J4') || B.insideCourtyard('J5')"))

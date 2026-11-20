@@ -1,0 +1,33 @@
+# Illustrative LEF of the IHP i2c-gpio-expander's pad ring, written for this
+# example from its pin-out table (the real one comes out of the ORFS flow).
+# Package Studio reads PIN name and USE: POWER / GROUND / SIGNAL.
+MACRO i2c_gpio_expander
+  PIN VDD_E
+    USE POWER ;
+  END VDD_E
+  PIN VSS_E
+    USE GROUND ;
+  END VSS_E
+  PIN VDD_W
+    USE POWER ;
+  END VDD_W
+  PIN VSS_W
+    USE GROUND ;
+  END VSS_W
+  PIN io_clock_PAD
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END io_clock_PAD
+  PIN io_reset_PAD
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END io_reset_PAD
+  PIN io_i2c_scl_PAD
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END io_i2c_scl_PAD
+  PIN io_i2c_sda_PAD
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END io_i2c_sda_PAD
+END i2c_gpio_expander

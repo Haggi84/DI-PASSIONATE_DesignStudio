@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>PackageStudio</name>
+  <description>Chip packaging assemblies in FreeCAD: GDS chips with a PDK technology (several at once), housings from a library, boards and parts as STEP; place and move them parametrically; pads, ports and symmetric bond wires; one material system; a ready-to-run openEMS, EMerge or Palace package with OTTER, and an EM assistant on a local Ollama model.</description>
+  <version>0.1.0</version>
+  <date>2026-11-10</date>
+  <maintainer email="jochen.zeitler@proton.me">Jochen Zeitler</maintainer>
+  <license file="LICENSE">GPL-3.0-or-later</license>
+  <content>
+    <workbench>
+      <classname>PackageStudioWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+  <freecadmin>1.0</freecadmin>
+</package>

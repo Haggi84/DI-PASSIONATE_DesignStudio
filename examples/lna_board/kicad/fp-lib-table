@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "LNAEval")(type "KiCad")(uri "${KIPRJMOD}/LNAEval.pretty")(options "")(descr "Package Studio: ALL_LNA in QFN-24 4x4"))
+)

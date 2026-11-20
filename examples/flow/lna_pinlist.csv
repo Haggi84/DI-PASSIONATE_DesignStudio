@@ -1,0 +1,12 @@
+# Completes lna_top.sch: the die's ground pads (one net GND), the leads the
+# RF pins must take (ground-signal-ground, as on the RF test board) and the
+# nets' names. Load it AFTER the .sch — later files override earlier ones.
+die,pad,net,kind,lead
+ALL_LNA,GND14,GND,ground,5
+ALL_LNA,RFIN,RF_IN,rf,6
+ALL_LNA,GND15,GND,ground,7
+ALL_LNA,GND4,GND,ground,24
+ALL_LNA,RFOUT,RF_OUT,rf,25
+ALL_LNA,GND3,GND,ground,26
+ALL_LNA,GNDHEAT,GND,ground,
+ALL_LNA,VCC,VCC,power,
