@@ -3,5 +3,5 @@ __pycache__/
 tests/results.log
 *.FCBak
 tools/palace/build.log
-examples/out/
-examples/*/out/
+
+

@@ -1,0 +1,457 @@
+{
+  "wires": [
+    "Wire GND14 - 5",
+    "Wire RFIN - 6",
+    "Wire GND15 - 7",
+    "Wire GND4 - 24",
+    "Wire RFOUT - 25",
+    "Wire GND3 - 26",
+    "Wire VCC - 13",
+    "Wire IDC - 15",
+    "Wire IHEAT - 17",
+    "Wire GNDHEAT - 19",
+    "Wire VTMP - 36"
+  ],
+  "wire_rule_findings": {
+    "Wire GND14 - 5": [
+      "Finding(wire='Wire GND14 - 5', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire GND14 - 5', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire GND14 - 5', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire GND14 - 5', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire GND14 - 5', rule='wire length', ok=True, severity='guideline', message='2.116 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire GND14 - 5', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire GND14 - 5', rule='die edge clearance', ok=True, severity='reject', message='30.7 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='clearance to other leads', ok=True, severity='reject', message='352.7 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='wire to wire', ok=True, severity='reject', message='85.5 um between Wire GND14 - 5 and Wire RFIN - 6 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='bond to bond', ok=True, severity='reject', message='61.5 um between the first bonds of Wire GND14 - 5 and Wire RFIN - 6', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND14 - 5', rule='wire to wire', ok=True, severity='reject', message='195.4 um between Wire GND14 - 5 and Wire GND15 - 7 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND14 - 5', rule='bond to bond', ok=True, severity='reject', message='160.4 um between the first bonds of Wire GND14 - 5 and Wire GND15 - 7', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND14 - 5', rule='wire to wire', ok=True, severity='reject', message='356.5 um between Wire GND14 - 5 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire RFIN - 6": [
+      "Finding(wire='Wire RFIN - 6', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire RFIN - 6', rule='bond on the die pad', ok=True, severity='reject', message='96 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire RFIN - 6', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire RFIN - 6', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire RFIN - 6', rule='wire length', ok=True, severity='guideline', message='2.119 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire RFIN - 6', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire RFIN - 6', rule='die edge clearance', ok=True, severity='reject', message='30.7 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='clearance to other leads', ok=True, severity='reject', message='349.1 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='85.5 um between Wire GND14 - 5 and Wire RFIN - 6 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='bond to bond', ok=True, severity='reject', message='61.5 um between the first bonds of Wire GND14 - 5 and Wire RFIN - 6', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='84.7 um between Wire RFIN - 6 and Wire GND15 - 7 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='bond to bond', ok=True, severity='reject', message='61.1 um between the first bonds of Wire RFIN - 6 and Wire GND15 - 7', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='403.9 um between Wire RFIN - 6 and Wire VCC - 13 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='467.1 um between Wire RFIN - 6 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='543.9 um between Wire RFIN - 6 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFIN - 6', rule='wire to wire', ok=True, severity='reject', message='441.9 um between Wire RFIN - 6 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire GND15 - 7": [
+      "Finding(wire='Wire GND15 - 7', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire GND15 - 7', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire GND15 - 7', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire GND15 - 7', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire GND15 - 7', rule='wire length', ok=True, severity='guideline', message='2.200 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire GND15 - 7', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire GND15 - 7', rule='die edge clearance', ok=True, severity='reject', message='32.6 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='clearance to other leads', ok=True, severity='reject', message='299.8 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='195.4 um between Wire GND14 - 5 and Wire GND15 - 7 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='bond to bond', ok=True, severity='reject', message='160.4 um between the first bonds of Wire GND14 - 5 and Wire GND15 - 7', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='84.7 um between Wire RFIN - 6 and Wire GND15 - 7 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='bond to bond', ok=True, severity='reject', message='61.1 um between the first bonds of Wire RFIN - 6 and Wire GND15 - 7', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='303.1 um between Wire GND15 - 7 and Wire VCC - 13 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='379.7 um between Wire GND15 - 7 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='470.5 um between Wire GND15 - 7 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND15 - 7', rule='wire to wire', ok=True, severity='reject', message='534.5 um between Wire GND15 - 7 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire GND4 - 24": [
+      "Finding(wire='Wire GND4 - 24', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire GND4 - 24', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire GND4 - 24', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire GND4 - 24', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire GND4 - 24', rule='wire length', ok=True, severity='guideline', message='2.221 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire GND4 - 24', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire GND4 - 24', rule='die edge clearance', ok=True, severity='reject', message='50.3 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='clearance to other leads', ok=True, severity='reject', message='302.7 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='wire to wire', ok=True, severity='reject', message='84.7 um between Wire GND4 - 24 and Wire RFOUT - 25 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='bond to bond', ok=True, severity='reject', message='61.2 um between the first bonds of Wire GND4 - 24 and Wire RFOUT - 25', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND4 - 24', rule='wire to wire', ok=True, severity='reject', message='195.2 um between Wire GND4 - 24 and Wire GND3 - 26 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='bond to bond', ok=True, severity='reject', message='160.5 um between the first bonds of Wire GND4 - 24 and Wire GND3 - 26', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND4 - 24', rule='wire to wire', ok=True, severity='reject', message='449.9 um between Wire GND4 - 24 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='wire to wire', ok=True, severity='reject', message='355.0 um between Wire GND4 - 24 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND4 - 24', rule='wire to wire', ok=True, severity='reject', message='280.0 um between Wire GND4 - 24 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire RFOUT - 25": [
+      "Finding(wire='Wire RFOUT - 25', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire RFOUT - 25', rule='bond on the die pad', ok=True, severity='reject', message='96 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire RFOUT - 25', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire RFOUT - 25', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire length', ok=True, severity='guideline', message='2.144 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire RFOUT - 25', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire RFOUT - 25', rule='die edge clearance', ok=True, severity='reject', message='48.4 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='clearance to other leads', ok=True, severity='reject', message='351.1 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='84.7 um between Wire GND4 - 24 and Wire RFOUT - 25 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='bond to bond', ok=True, severity='reject', message='61.2 um between the first bonds of Wire GND4 - 24 and Wire RFOUT - 25', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='85.4 um between Wire RFOUT - 25 and Wire GND3 - 26 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='bond to bond', ok=True, severity='reject', message='61.6 um between the first bonds of Wire RFOUT - 25 and Wire GND3 - 26', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='523.6 um between Wire RFOUT - 25 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='442.6 um between Wire RFOUT - 25 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='381.0 um between Wire RFOUT - 25 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire RFOUT - 25', rule='wire to wire', ok=True, severity='reject', message='535.3 um between Wire RFOUT - 25 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire GND3 - 26": [
+      "Finding(wire='Wire GND3 - 26', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire GND3 - 26', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire GND3 - 26', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire GND3 - 26', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire GND3 - 26', rule='wire length', ok=True, severity='guideline', message='2.143 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire GND3 - 26', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire GND3 - 26', rule='die edge clearance', ok=True, severity='reject', message='48.4 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='clearance to other leads', ok=True, severity='reject', message='351.5 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='wire to wire', ok=True, severity='reject', message='195.2 um between Wire GND4 - 24 and Wire GND3 - 26 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='bond to bond', ok=True, severity='reject', message='160.5 um between the first bonds of Wire GND4 - 24 and Wire GND3 - 26', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND3 - 26', rule='wire to wire', ok=True, severity='reject', message='85.4 um between Wire RFOUT - 25 and Wire GND3 - 26 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='bond to bond', ok=True, severity='reject', message='61.6 um between the first bonds of Wire RFOUT - 25 and Wire GND3 - 26', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GND3 - 26', rule='wire to wire', ok=True, severity='reject', message='537.7 um between Wire GND3 - 26 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='wire to wire', ok=True, severity='reject', message='485.6 um between Wire GND3 - 26 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GND3 - 26', rule='wire to wire', ok=True, severity='reject', message='463.2 um between Wire GND3 - 26 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire VCC - 13": [
+      "Finding(wire='Wire VCC - 13', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire VCC - 13', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire VCC - 13', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire VCC - 13', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire VCC - 13', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire VCC - 13', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire VCC - 13', rule='wire length', ok=True, severity='guideline', message='2.299 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire VCC - 13', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire VCC - 13', rule='die edge clearance', ok=True, severity='reject', message='37.1 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='clearance to other leads', ok=True, severity='reject', message='236.2 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='wire to wire', ok=True, severity='reject', message='403.9 um between Wire RFIN - 6 and Wire VCC - 13 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='wire to wire', ok=True, severity='reject', message='303.1 um between Wire GND15 - 7 and Wire VCC - 13 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='wire to wire', ok=True, severity='reject', message='96.1 um between Wire VCC - 13 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='bond to bond', ok=True, severity='reject', message='59.5 um between the first bonds of Wire VCC - 13 and Wire IDC - 15', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire VCC - 13', rule='wire to wire', ok=True, severity='reject', message='219.8 um between Wire VCC - 13 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VCC - 13', rule='bond to bond', ok=True, severity='reject', message='157.4 um between the first bonds of Wire VCC - 13 and Wire IHEAT - 17', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire VCC - 13', rule='wire to wire', ok=True, severity='reject', message='335.1 um between Wire VCC - 13 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ],
+    "Wire IDC - 15": [
+      "Finding(wire='Wire IDC - 15', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire IDC - 15', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire IDC - 15', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire IDC - 15', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire IDC - 15', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire IDC - 15', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire IDC - 15', rule='wire length', ok=True, severity='guideline', message='2.020 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire IDC - 15', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire IDC - 15', rule='die edge clearance', ok=True, severity='reject', message='30.8 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='clearance to other leads', ok=True, severity='reject', message='351.5 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='467.1 um between Wire RFIN - 6 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='379.7 um between Wire GND15 - 7 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='449.9 um between Wire GND4 - 24 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='523.6 um between Wire RFOUT - 25 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='96.1 um between Wire VCC - 13 and Wire IDC - 15 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='bond to bond', ok=True, severity='reject', message='59.5 um between the first bonds of Wire VCC - 13 and Wire IDC - 15', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='98.8 um between Wire IDC - 15 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='bond to bond', ok=True, severity='reject', message='60.1 um between the first bonds of Wire IDC - 15 and Wire IHEAT - 17', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire IDC - 15', rule='wire to wire', ok=True, severity='reject', message='214.5 um between Wire IDC - 15 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IDC - 15', rule='bond to bond', ok=True, severity='reject', message='158.1 um between the first bonds of Wire IDC - 15 and Wire GNDHEAT - 19', ref='MIL-STD-883 TM 2010 3.2.1.4f')"
+    ],
+    "Wire IHEAT - 17": [
+      "Finding(wire='Wire IHEAT - 17', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire IHEAT - 17', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire IHEAT - 17', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire IHEAT - 17', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire length', ok=True, severity='guideline', message='2.139 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire IHEAT - 17', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire IHEAT - 17', rule='die edge clearance', ok=True, severity='reject', message='33.6 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='clearance to other leads', ok=True, severity='reject', message='283.6 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='543.9 um between Wire RFIN - 6 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='470.5 um between Wire GND15 - 7 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='355.0 um between Wire GND4 - 24 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='442.6 um between Wire RFOUT - 25 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='537.7 um between Wire GND3 - 26 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='219.8 um between Wire VCC - 13 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='bond to bond', ok=True, severity='reject', message='157.4 um between the first bonds of Wire VCC - 13 and Wire IHEAT - 17', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='98.8 um between Wire IDC - 15 and Wire IHEAT - 17 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='bond to bond', ok=True, severity='reject', message='60.1 um between the first bonds of Wire IDC - 15 and Wire IHEAT - 17', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire IHEAT - 17', rule='wire to wire', ok=True, severity='reject', message='88.2 um between Wire IHEAT - 17 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire IHEAT - 17', rule='bond to bond', ok=True, severity='reject', message='57.2 um between the first bonds of Wire IHEAT - 17 and Wire GNDHEAT - 19', ref='MIL-STD-883 TM 2010 3.2.1.4f')"
+    ],
+    "Wire GNDHEAT - 19": [
+      "Finding(wire='Wire GNDHEAT - 19', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire length', ok=True, severity='guideline', message='2.599 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='die edge clearance', ok=True, severity='reject', message='42.3 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='clearance to other leads', ok=True, severity='reject', message='184.4 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='280.0 um between Wire GND4 - 24 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='381.0 um between Wire RFOUT - 25 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='485.6 um between Wire GND3 - 26 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='335.1 um between Wire VCC - 13 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='214.5 um between Wire IDC - 15 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='bond to bond', ok=True, severity='reject', message='158.1 um between the first bonds of Wire IDC - 15 and Wire GNDHEAT - 19', ref='MIL-STD-883 TM 2010 3.2.1.4f')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='wire to wire', ok=True, severity='reject', message='88.2 um between Wire IHEAT - 17 and Wire GNDHEAT - 19 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire GNDHEAT - 19', rule='bond to bond', ok=True, severity='reject', message='57.2 um between the first bonds of Wire IHEAT - 17 and Wire GNDHEAT - 19', ref='MIL-STD-883 TM 2010 3.2.1.4f')"
+    ],
+    "Wire VTMP - 36": [
+      "Finding(wire='Wire VTMP - 36', rule='first bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='second bond size', ok=True, severity='reject', message='ultrasonic wedge 1.50 d wide (1.2 \u2013 3.0), 2.00 d long (1.5 \u2013 6.0)', ref='MIL-STD-883 TM 2010 3.2.1.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='tail', ok=True, severity='reject', message='tail 0.50 d (<= 2 d)', ref='MIL-STD-883 TM 2010 3.2.1.4d')",
+      "Finding(wire='Wire VTMP - 36', rule='bond on the die pad', ok=True, severity='reject', message='100 % of the chip bond within the pad opening (>= 50 %)', ref='MIL-STD-883 TM 2010 3.2.1.4a')",
+      "Finding(wire='Wire VTMP - 36', rule='bond on the post', ok=True, severity='reject', message='100 % of the lead bond on the lead (100 %)', ref='MIL-STD-883 TM 2010 3.2.1.4e')",
+      "Finding(wire='Wire VTMP - 36', rule='arc', ok=True, severity='reject', message='loop rises 150.0 um above its bonds', ref='MIL-STD-883 TM 2010 3.2.2d')",
+      "Finding(wire='Wire VTMP - 36', rule='wire length', ok=True, severity='guideline', message='2.116 mm (guideline <= 200 d = 5.00 mm)', ref='')",
+      "Finding(wire='Wire VTMP - 36', rule='loop height', ok=True, severity='guideline', message='150 um (guideline >= 50 um)', ref='')",
+      "Finding(wire='Wire VTMP - 36', rule='die edge clearance', ok=True, severity='reject', message='88.8 um to the die edge (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='clearance to other leads', ok=True, severity='reject', message='353.3 um to the nearest other lead (>= 1 d)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='wire to wire', ok=True, severity='reject', message='356.5 um between Wire GND14 - 5 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='wire to wire', ok=True, severity='reject', message='441.9 um between Wire RFIN - 6 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='wire to wire', ok=True, severity='reject', message='534.5 um between Wire GND15 - 7 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='wire to wire', ok=True, severity='reject', message='535.3 um between Wire RFOUT - 25 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')",
+      "Finding(wire='Wire VTMP - 36', rule='wire to wire', ok=True, severity='reject', message='463.2 um between Wire GND3 - 26 and Wire VTMP - 36 (>= 25.0 um)', ref='MIL-STD-883 TM 2010 3.2.2a')"
+    ]
+  },
+  "package_centre": [
+    0.0,
+    0.0040000000000000036,
+    0.289
+  ],
+  "ports": [
+    [
+      "port1",
+      [
+        "Port_1"
+      ],
+      "50 Ohm",
+      true,
+      "z"
+    ],
+    [
+      "port2",
+      [
+        "Port_2"
+      ],
+      "50 Ohm",
+      false,
+      "z"
+    ],
+    [
+      "port3",
+      [
+        "Port_3"
+      ],
+      "50 Ohm",
+      false,
+      "y"
+    ],
+    [
+      "port4",
+      [
+        "Port_4"
+      ],
+      "50 Ohm",
+      false,
+      "y"
+    ]
+  ],
+  "readiness": [
+    "info: ALL_LNA: 7,090 polygons of TopMetal1, TopVia2, TopMetal2 are built exactly."
+  ],
+  "saved": "C:\\Users\\jozeitler\\AppData\\Roaming\\FreeCAD\\v1-1\\Mod\\PackageStudio\\examples\\out\\LNA_QFN40_on_RO4350B.FCStd",
+  "model": "192 parts (1 chip metal), 4 ports, 192 with a material, 0 group(s) guessed by OTTER\nair box 7.7 mm round the structure\nALL_LNA: 2,023 fill polygons left out",
+  "after_build": [
+    "warning: Port_3 touches only ALL_LNA_TopMetal2: a lumped port spans the gap between two conductors, the signal and its ground.",
+    "warning: Port_4 touches only ALL_LNA_TopMetal2: a lumped port spans the gap between two conductors, the signal and its ground."
+  ],
+  "otter_checks": [
+    "info: openEMS mesh (estimate): 689 \u00d7 400 \u00d7 91 = 25.08 M cells, smallest cell 5.28 \u00b5m, about 4 GB RAM."
+  ],
+  "materials": [
+    [
+      "Copper_Bottom_GND",
+      -0.035,
+      0.0,
+      "Copper (Cu)",
+      "Material: Copper (Cu)"
+    ],
+    [
+      "RO4350B_Substrate",
+      0.0,
+      0.254,
+      "Rogers RO4350B",
+      "Material: Rogers RO4350B"
+    ],
+    [
+      "Copper_Vias_GND_29",
+      0.0,
+      0.254,
+      "Copper (Cu)",
+      "Material: Copper (Cu)"
+    ],
+    [
+      "Copper_Top_GND",
+      0.254,
+      0.289,
+      "Copper (Cu)",
+      "Material: Copper (Cu)"
+    ],
+    [
+      "QFN_40_6x6_leadframe_1",
+      0.289,
+      0.489,
+      "Copper alloy C194 (leadframe)",
+      "Material: Copper alloy C194 (leadframe)"
+    ],
+    [
+      "Die_attach_ALL_LNA",
+      0.489,
+      0.514,
+      "Die attach epoxy, Ag-filled",
+      "Material: Die attach epoxy, Ag-filled"
+    ],
+    [
+      "ALL_LNA_Substrate",
+      0.514,
+      0.694,
+      "IHP SG13G2 / Substrate",
+      "Material: IHP SG13G2 / Substrate"
+    ],
+    [
+      "ALL_LNA_EPI",
+      0.694,
+      0.6977,
+      "IHP SG13G2 / EPI",
+      "Material: IHP SG13G2 / EPI"
+    ],
+    [
+      "ALL_LNA_TopMetal2",
+      0.709,
+      0.712,
+      "IHP SG13G2 / TopMetal2",
+      "PDK stackup via Material: IHP SG13G2 / TopMetal2"
+    ],
+    [
+      "ALL_LNA_Passive",
+      0.7135,
+      0.7139,
+      "IHP SG13G2 / Passive",
+      "Material: IHP SG13G2 / Passive"
+    ],
+    [
+      "QFN_40_6x6_body",
+      0.289,
+      1.139,
+      "Mould compound (EMC)",
+      "Material: Mould compound (EMC)"
+    ],
+    [
+      "Wire_GND4_24",
+      0.489,
+      0.891,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_GND14_5",
+      0.489,
+      0.8912,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_RFOUT_25",
+      0.489,
+      0.8911,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_RFIN_6",
+      0.489,
+      0.8912,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_IHEAT_17",
+      0.489,
+      0.8908,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_GNDHEAT_19",
+      0.489,
+      0.8912,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_VCC_13",
+      0.489,
+      0.8911,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "Wire_GND15_7",
+      0.489,
+      0.8909,
+      "Aluminium 1% Si wire (AlSi1)",
+      "Material: Aluminium 1% Si wire (AlSi1)"
+    ],
+    [
+      "ALL_LNA_SiO2",
+      0.6977,
+      0.7135,
+      "IHP SG13G2 / SiO2",
+      "Material: IHP SG13G2 / SiO2"
+    ]
+  ],
+  "port_contacts": {
+    "Port_1": [
+      "Copper_Top_RFIN",
+      "Copper_Bottom_GND"
+    ],
+    "Port_2": [
+      "Copper_Top_RFOUT",
+      "Copper_Bottom_GND"
+    ],
+    "Port_3": [
+      "ALL_LNA_TopMetal2"
+    ],
+    "Port_4": [
+      "ALL_LNA_TopMetal2"
+    ]
+  },
+  "die_port_pieces": {
+    "Port_1": 0,
+    "Port_2": 0,
+    "Port_3": 2,
+    "Port_4": 2
+  },
+  "mesh": "689 \u00d7 400 \u00d7 91 = 25.08 M cells, smallest cell 5.28 \u00b5m, about 4 GB RAM",
+  "package": "C:\\Users\\jozeitler\\AppData\\Roaming\\FreeCAD\\v1-1\\Mod\\PackageStudio\\examples\\out\\package\\LNA_QFN40_on_RO4350B_EM_openEMS.zip",
+  "package_warnings": [
+    "dielectric has higher priority than conductor it touches, conductor is replaced by dielectric on shared faces, move conductors above dielectrics in priority list: ALL_LNA_Passive (-9300) > QFN_40_6x6_body (-9400)"
+  ]
+}

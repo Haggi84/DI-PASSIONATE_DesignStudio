@@ -1,0 +1,394 @@
+[
+  {
+    "group": "Copper_Bottom_GND",
+    "zmin_mm": -0.035,
+    "zmax_mm": 0.0,
+    "material": "Copper (Cu)",
+    "values": "Copper (Cu): \u03c3 5.96e+07 S/m",
+    "origin": "Material: Copper (Cu)",
+    "parts": [
+      "Copper_Bottom_GND"
+    ]
+  },
+  {
+    "group": "RO4350B_Substrate",
+    "zmin_mm": 0.0,
+    "zmax_mm": 0.254,
+    "material": "Rogers RO4350B",
+    "values": "Rogers RO4350B: \u03b5_r 3.66, tan \u03b4 0.0037",
+    "origin": "Material: Rogers RO4350B",
+    "parts": [
+      "RO4350B_Substrate"
+    ]
+  },
+  {
+    "group": "Copper_Vias_GND_29",
+    "zmin_mm": 0.0,
+    "zmax_mm": 0.254,
+    "material": "Copper (Cu)",
+    "values": "Copper (Cu): \u03c3 5.96e+07 S/m",
+    "origin": "Material: Copper (Cu)",
+    "parts": [
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND",
+      "Copper_Vias_GND"
+    ]
+  },
+  {
+    "group": "Copper_Top_GND",
+    "zmin_mm": 0.254,
+    "zmax_mm": 0.289,
+    "material": "Copper (Cu)",
+    "values": "Copper (Cu): \u03c3 5.96e+07 S/m",
+    "origin": "Material: Copper (Cu)",
+    "parts": [
+      "Copper_Top_GND",
+      "Copper_Top_RFIN",
+      "Copper_Top_RFOUT",
+      "Copper_Top_IDC",
+      "Copper_Top_IHEAT",
+      "Copper_Top_GNDHEAT",
+      "Copper_Top_VCC",
+      "Copper_Top_VTMP",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC",
+      "Copper_Top_NC"
+    ]
+  },
+  {
+    "group": "QFN_40_6x6_leadframe_1",
+    "zmin_mm": 0.289,
+    "zmax_mm": 0.489,
+    "material": "Copper alloy C194 (leadframe)",
+    "values": "Copper alloy C194 (leadframe): \u03c3 3.77e+07 S/m",
+    "origin": "Material: Copper alloy C194 (leadframe)",
+    "parts": [
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe",
+      "QFN-40 6x6 leadframe"
+    ]
+  },
+  {
+    "group": "Die_attach_ALL_LNA",
+    "zmin_mm": 0.489,
+    "zmax_mm": 0.514,
+    "material": "Die attach epoxy, Ag-filled",
+    "values": "Die attach epoxy, Ag-filled: \u03c3 1e+05 S/m",
+    "origin": "Material: Die attach epoxy, Ag-filled",
+    "parts": [
+      "Die attach \u2014 ALL_LNA"
+    ]
+  },
+  {
+    "group": "ALL_LNA_Substrate",
+    "zmin_mm": 0.514,
+    "zmax_mm": 0.694,
+    "material": "IHP SG13G2 / Substrate",
+    "values": "IHP SG13G2 / Substrate: \u03b5_r 11.9, tan \u03b4 0, \u03c3 2 S/m",
+    "origin": "Material: IHP SG13G2 / Substrate",
+    "parts": [
+      "ALL_LNA Substrate"
+    ]
+  },
+  {
+    "group": "ALL_LNA_EPI",
+    "zmin_mm": 0.694,
+    "zmax_mm": 0.69775,
+    "material": "IHP SG13G2 / EPI",
+    "values": "IHP SG13G2 / EPI: \u03b5_r 11.9, tan \u03b4 0, \u03c3 5 S/m",
+    "origin": "Material: IHP SG13G2 / EPI",
+    "parts": [
+      "ALL_LNA EPI"
+    ]
+  },
+  {
+    "group": "ALL_LNA_TopMetal2",
+    "zmin_mm": 0.7089803,
+    "zmax_mm": 0.7119803,
+    "material": "IHP SG13G2 / TopMetal2",
+    "values": "IHP SG13G2 / TopMetal2: \u03c3 3.03e+07 S/m",
+    "origin": "PDK stackup via Material: IHP SG13G2 / TopMetal2",
+    "parts": [
+      "ALL_LNA_TopMetal2"
+    ]
+  },
+  {
+    "group": "ALL_LNA_Passive",
+    "zmin_mm": 0.7134803,
+    "zmax_mm": 0.7138803,
+    "material": "IHP SG13G2 / Passive",
+    "values": "IHP SG13G2 / Passive: \u03b5_r 6.6, tan \u03b4 0",
+    "origin": "Material: IHP SG13G2 / Passive",
+    "parts": [
+      "ALL_LNA Passive"
+    ]
+  },
+  {
+    "group": "QFN_40_6x6_body",
+    "zmin_mm": 0.289,
+    "zmax_mm": 1.139,
+    "material": "Mould compound (EMC)",
+    "values": "Mould compound (EMC): \u03b5_r 3.8, tan \u03b4 0.01",
+    "origin": "Material: Mould compound (EMC)",
+    "parts": [
+      "QFN-40 6x6 body"
+    ]
+  },
+  {
+    "group": "Wire_GND4_24",
+    "zmin_mm": 0.488999999999938,
+    "zmax_mm": 0.890960854988363,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire GND4 - 24"
+    ]
+  },
+  {
+    "group": "Wire_GND14_5",
+    "zmin_mm": 0.4889999999999577,
+    "zmax_mm": 0.8911508765805201,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire GND14 - 5",
+      "Wire VTMP - 36"
+    ]
+  },
+  {
+    "group": "Wire_RFOUT_25",
+    "zmin_mm": 0.48899999999997046,
+    "zmax_mm": 0.891146316138228,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire RFOUT - 25",
+      "Wire GND3 - 26"
+    ]
+  },
+  {
+    "group": "Wire_RFIN_6",
+    "zmin_mm": 0.48899999999997423,
+    "zmax_mm": 0.891153832057646,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire RFIN - 6",
+      "Wire IDC - 15"
+    ]
+  },
+  {
+    "group": "Wire_IHEAT_17",
+    "zmin_mm": 0.48899999999998506,
+    "zmax_mm": 0.8908038125916431,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire IHEAT - 17"
+    ]
+  },
+  {
+    "group": "Wire_GNDHEAT_19",
+    "zmin_mm": 0.4889999999999893,
+    "zmax_mm": 0.891155644939085,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire GNDHEAT - 19"
+    ]
+  },
+  {
+    "group": "Wire_VCC_13",
+    "zmin_mm": 0.48899999999999677,
+    "zmax_mm": 0.8911283314119152,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire VCC - 13"
+    ]
+  },
+  {
+    "group": "Wire_GND15_7",
+    "zmin_mm": 0.489,
+    "zmax_mm": 0.8908881071661905,
+    "material": "Aluminium 1% Si wire (AlSi1)",
+    "values": "Aluminium 1% Si wire (AlSi1): \u03c3 3.4e+07 S/m",
+    "origin": "Material: Aluminium 1% Si wire (AlSi1)",
+    "parts": [
+      "Wire GND15 - 7"
+    ]
+  },
+  {
+    "group": "ALL_LNA_SiO2",
+    "zmin_mm": 0.69775,
+    "zmax_mm": 0.7134803,
+    "material": "IHP SG13G2 / SiO2",
+    "values": "IHP SG13G2 / SiO2: \u03b5_r 4.1, tan \u03b4 0",
+    "origin": "Material: IHP SG13G2 / SiO2",
+    "parts": [
+      "ALL_LNA SiO2"
+    ]
+  }
+]

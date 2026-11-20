@@ -1,0 +1,214 @@
+{
+ "mcm": {
+  "package": "QFN-32 5x5",
+  "pin_list": "cubesat_mcm_pinlist.csv",
+  "dies": {
+   "ALL_LNA": [
+    -0.675,
+    0.675
+   ],
+   "i2c_gpio_expander": [
+    0.54,
+    -0.64
+   ]
+  },
+  "layout_issues": [],
+  "pins_not_found": [],
+  "pin_map": {
+   "29": "GND3",
+   "2": "GND14",
+   "3": "RFIN",
+   "4": "GND15",
+   "27": "GND4",
+   "28": "RFOUT",
+   "31": "VTMP",
+   "5": "VCC",
+   "6": "IDC",
+   "7": "IHEAT",
+   "8": "GNDHEAT",
+   "17": "VDD_E",
+   "9": "VDD_W",
+   "18": "VSS_E",
+   "10": "VSS_W",
+   "12": "io_clock_PAD",
+   "13": "io_reset_PAD",
+   "14": "io_i2c_scl_PAD",
+   "15": "io_i2c_sda_PAD",
+   "16": "io_i2c_interrupt_PAD",
+   "19": "io_address_0_PAD",
+   "20": "io_address_1_PAD",
+   "21": "io_address_2_PAD",
+   "26": "io_gpio_0_PAD",
+   "25": "io_gpio_1_PAD",
+   "24": "io_gpio_2_PAD",
+   "23": "io_gpio_3_PAD",
+   "22": "io_gpio_4_PAD",
+   "11": "io_gpio_5_PAD"
+  },
+  "lead_nets": {
+   "29": "GND",
+   "2": "GND",
+   "3": "RF_IN",
+   "4": "GND",
+   "27": "GND",
+   "28": "RF_OUT",
+   "31": "LNA_TEMP",
+   "5": "VCC_LNA",
+   "6": "LNA_BIAS",
+   "7": "LNA_HEAT",
+   "8": "GND",
+   "17": "VDD_DIG",
+   "9": "VDD_DIG",
+   "18": "GND",
+   "10": "GND",
+   "12": "CLK_50M",
+   "13": "RESET",
+   "14": "SCL",
+   "15": "SDA",
+   "16": "INT",
+   "19": "ADDR0",
+   "20": "ADDR1",
+   "21": "ADDR2",
+   "26": "GPIO0",
+   "25": "GPIO1",
+   "24": "GPIO2",
+   "23": "GPIO3",
+   "22": "GPIO4",
+   "11": "GPIO5"
+  },
+  "package_lvs": [
+   "info: [unused] 3 leads without a wire: 1, 30, 32"
+  ],
+  "die_to_die": [],
+  "wire_rule_rejects": [],
+  "wires_checked": 29,
+  "wire_lengths_mm": {
+   "Wire GND3 - 29": 1.596,
+   "Wire GND14 - 2": 1.463,
+   "Wire RFIN - 3": 1.371,
+   "Wire GND15 - 4": 1.399,
+   "Wire GND4 - 27": 2.136,
+   "Wire RFOUT - 28": 1.812,
+   "Wire VTMP - 31": 1.461,
+   "Wire VCC - 5": 1.583,
+   "Wire IDC - 6": 1.901,
+   "Wire IHEAT - 7": 2.293,
+   "Wire GNDHEAT - 8": 2.726,
+   "Wire VDD_E - 17": 1.683,
+   "Wire VDD_W - 9": 2.643,
+   "Wire VSS_E - 18": 1.477,
+   "Wire VSS_W - 10": 2.241,
+   "Wire io_clock_PAD - 12": 1.438,
+   "Wire io_reset_PAD - 13": 1.304,
+   "Wire io_i2c_scl_PAD - 14": 1.304,
+   "Wire io_i2c_sda_PAD - 15": 1.439,
+   "Wire io_i2c_interrupt_PAD - 16": 1.676,
+   "Wire io_address_0_PAD - 19": 1.379,
+   "Wire io_address_1_PAD - 20": 1.41,
+   "Wire io_address_2_PAD - 21": 1.564,
+   "Wire io_gpio_0_PAD - 26": 2.652,
+   "Wire io_gpio_1_PAD - 25": 2.823,
+   "Wire io_gpio_2_PAD - 24": 2.677,
+   "Wire io_gpio_3_PAD - 23": 2.261,
+   "Wire io_gpio_4_PAD - 22": 1.892,
+   "Wire io_gpio_5_PAD - 11": 1.76
+  }
+ },
+ "deliverables": [
+  "/home/claude/src/PackageStudio/examples/out/cubesat/CubeSat_MCM_QFN32_bonding.svg",
+  "/home/claude/src/PackageStudio/examples/out/cubesat/CubeSat_MCM_QFN32_wires.csv",
+  "/home/claude/src/PackageStudio/examples/out/cubesat/kicad/PackageStudio.pretty/CubeSat_MCM_QFN32.kicad_mod",
+  "/home/claude/src/PackageStudio/examples/out/cubesat/kicad/PackageStudio.kicad_sym",
+  "/home/claude/src/PackageStudio/examples/out/cubesat/kicad/CubeSat_MCM_QFN32.step"
+ ],
+ "system": {
+  "findings": [
+   "warning: [stack] Battery board (stand-in): parts stand 18.40 mm above the board (CubeSat Kit: <= 11 mm at 15 mm pitch); the board above needs a taller spacer.",
+   "info: [mass] 436.1 g of 2000 g allowed.",
+   "info: [centre of gravity] (-0.2, +2.6, -5.2) mm from the geometric centre (within \u00b120/\u00b120/\u00b120 mm)."
+  ],
+  "mass_g": 436.07,
+  "cg_mm": [
+   -0.15,
+   2.57,
+   -5.2
+  ],
+  "stack": [
+   {
+    "board": "EPS board (stand-in)",
+    "top": -40.0,
+    "above": 8.5,
+    "below": 0.0,
+    "room_up": 14.4,
+    "clearance_up": 5.9,
+    "nearest_up": "FR-4 core002 (Battery board (stand-in))"
+   },
+   {
+    "board": "Battery board (stand-in)",
+    "top": -24.0,
+    "above": 18.4,
+    "below": 0.0,
+    "room_up": 20.4,
+    "clearance_up": 2.0,
+    "nearest_up": "FR-4 core003 (OBC board (stand-in))"
+   },
+   {
+    "board": "OBC board (stand-in)",
+    "top": -2.0,
+    "above": 8.5,
+    "below": 0.0,
+    "room_up": 13.4,
+    "clearance_up": 4.9,
+    "nearest_up": "FR-4 core (COM board \u2014 S-band receiver)"
+   },
+   {
+    "board": "COM board \u2014 S-band receiver",
+    "top": 13.0,
+    "above": 8.5,
+    "below": 0.0,
+    "room_up": null,
+    "clearance_up": 32.25,
+    "nearest_up": "Top frame (+Z) (Structure)"
+   }
+  ],
+  "mass_by_module": {
+   "Battery board (stand-in)": 128.18,
+   "Solar panels": 79.52,
+   "Structure": 63.6,
+   "EPS board (stand-in)": 37.93,
+   "COM board \u2014 S-band receiver": 37.64,
+   "OBC board (stand-in)": 36.78,
+   "Stack": 31.87,
+   "Antenna": 20.56
+  },
+  "limits": "CubeSat Design Specification Rev 14.1 (Cal Poly, 2022)"
+ },
+ "files": [
+  "/home/claude/src/PackageStudio/examples/out/cubesat/CubeSat_SBand_MCM.FCStd",
+  "/home/claude/src/PackageStudio/examples/out/cubesat/CubeSat_SBand_MCM_RF_EM.FCStd"
+ ],
+ "em": {
+  "ports": [
+   "Port1_RFIN_line",
+   "Port2_RFOUT_line",
+   "Port3_RFIN_die",
+   "Port4_RFOUT_die"
+  ],
+  "readiness": [
+   "info: ALL_LNA: 7,091 polygons of TopMetal1, TopVia2, TopMetal2 are built exactly.",
+   "info: i2c_gpio_expander: 36,186 polygons of TopMetal1, TopVia2, TopMetal2 are built exactly."
+  ],
+  "band_GHz": [
+   1.0,
+   4.0
+  ],
+  "model": "147 parts (2 chip metal), 4 ports, 147 with a material, 0 group(s) guessed by OTTER\nair box 19.2 mm round the structure\nALL_LNA: 2,023 fill polygons left out\ni2c_gpio_expander: 3,003 fill polygons left out",
+  "after_build": [
+   "warning: Port_3 touches only ALL_LNA_TopMetal2: a lumped port spans the gap between two conductors, the signal and its ground."
+  ],
+  "otter_checks": [
+   "info: openEMS mesh (estimate): 531 \u00d7 434 \u00d7 103 = 23.74 M cells, smallest cell 5 \u00b5m, about 3.8 GB RAM."
+  ],
+  "mesh": "531 \u00d7 434 \u00d7 103 = 23.74 M cells, smallest cell 5 \u00b5m, about 3.8 GB RAM"
+ }
+}

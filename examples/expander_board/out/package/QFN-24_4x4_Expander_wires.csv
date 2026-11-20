@@ -1,0 +1,21 @@
+no,wire,net,first_die,first_pad,first_x_um,first_y_um,second,second_x_um,second_y_um,second_ref,material,diameter_um,loop_height_um,length_mm
+1,Wire IO_CORNER_NORTH_WEST_INST.vdd_RING - 2,+1V2,i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING,-420.0,164.0,lead 2,-1625.0,750.0,package centre,Al,25.0,150.0,1.533
+2,Wire IO_CORNER_NORTH_WEST_INST.vss_RING - 3,GND,i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING,-420.0,82.0,lead 3,-1625.0,250.0,package centre,Al,25.0,150.0,1.421
+3,Wire io_gpio_7_PAD - 4,GPIO7,i2c_gpio_expander_SG13G2Top,io_gpio_7_PAD,-420.0,-0.0,lead 4,-1625.0,-250.0,package centre,Al,25.0,150.0,1.433
+4,Wire io_gpio_6_PAD - 5,GPIO6,i2c_gpio_expander_SG13G2Top,io_gpio_6_PAD,-420.0,-82.0,lead 5,-1625.0,-750.0,package centre,Al,25.0,150.0,1.568
+5,Wire io_gpio_5_PAD - 6,GPIO5,i2c_gpio_expander_SG13G2Top,io_gpio_5_PAD,-420.0,-164.0,lead 6,-1625.0,-1250.0,package centre,Al,25.0,150.0,1.798
+6,Wire io_clock_PAD - 7,CLK_50M,i2c_gpio_expander_SG13G2Top,io_clock_PAD,-164.0,-420.0,lead 7,-1250.0,-1625.0,package centre,Al,25.0,150.0,1.798
+7,Wire io_reset_PAD - 8,RESET_N,i2c_gpio_expander_SG13G2Top,io_reset_PAD,-82.0,-420.0,lead 8,-750.0,-1625.0,package centre,Al,25.0,150.0,1.568
+8,Wire io_i2c_scl_PAD - 9,SCL,i2c_gpio_expander_SG13G2Top,io_i2c_scl_PAD,-0.0,-420.0,lead 9,-250.0,-1625.0,package centre,Al,25.0,150.0,1.433
+9,Wire io_i2c_sda_PAD - 10,SDA,i2c_gpio_expander_SG13G2Top,io_i2c_sda_PAD,82.0,-420.0,lead 10,250.0,-1625.0,package centre,Al,25.0,150.0,1.421
+10,Wire io_i2c_interrupt_PAD - 11,INT,i2c_gpio_expander_SG13G2Top,io_i2c_interrupt_PAD,164.0,-420.0,lead 11,750.0,-1625.0,package centre,Al,25.0,150.0,1.533
+11,Wire IO_CORNER_NORTH_WEST_INST.vdd_RING_2 - 13,+1V2,i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vdd_RING_2,420.0,-164.0,lead 13,1625.0,-1250.0,package centre,Al,25.0,150.0,1.798
+12,Wire IO_CORNER_NORTH_WEST_INST.vss_RING_2 - 14,GND,i2c_gpio_expander_SG13G2Top,IO_CORNER_NORTH_WEST_INST.vss_RING_2,420.0,-82.0,lead 14,1625.0,-750.0,package centre,Al,25.0,150.0,1.568
+13,Wire io_address_0_PAD - 15,A0,i2c_gpio_expander_SG13G2Top,io_address_0_PAD,420.0,-0.0,lead 15,1625.0,-250.0,package centre,Al,25.0,150.0,1.433
+14,Wire io_address_1_PAD - 16,A1,i2c_gpio_expander_SG13G2Top,io_address_1_PAD,420.0,82.0,lead 16,1625.0,250.0,package centre,Al,25.0,150.0,1.421
+15,Wire io_address_2_PAD - 17,A2,i2c_gpio_expander_SG13G2Top,io_address_2_PAD,420.0,164.0,lead 17,1625.0,750.0,package centre,Al,25.0,150.0,1.533
+16,Wire io_gpio_4_PAD - 20,GPIO4,i2c_gpio_expander_SG13G2Top,io_gpio_4_PAD,164.0,420.0,lead 20,750.0,1625.0,package centre,Al,25.0,150.0,1.533
+17,Wire io_gpio_3_PAD - 21,GPIO3,i2c_gpio_expander_SG13G2Top,io_gpio_3_PAD,82.0,420.0,lead 21,250.0,1625.0,package centre,Al,25.0,150.0,1.421
+18,Wire io_gpio_2_PAD - 22,GPIO2,i2c_gpio_expander_SG13G2Top,io_gpio_2_PAD,-0.0,420.0,lead 22,-250.0,1625.0,package centre,Al,25.0,150.0,1.433
+19,Wire io_gpio_1_PAD - 23,GPIO1,i2c_gpio_expander_SG13G2Top,io_gpio_1_PAD,-82.0,420.0,lead 23,-750.0,1625.0,package centre,Al,25.0,150.0,1.568
+20,Wire io_gpio_0_PAD - 24,GPIO0,i2c_gpio_expander_SG13G2Top,io_gpio_0_PAD,-164.0,420.0,lead 24,-1250.0,1625.0,package centre,Al,25.0,150.0,1.798
